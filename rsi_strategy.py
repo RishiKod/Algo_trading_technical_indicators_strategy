@@ -36,10 +36,10 @@ tickers = ['ADANIPORTS.NS',
  'BHARTIARTL.NS',
  'INFRATEL.NS']
 
-#start = dt.date.today() - dt.timedelta(40+365*1)
-start = '2014-12-31'
-#end = dt.date.today()
-end = '2019-12-31'
+start = dt.date.today() - dt.timedelta(40+365*1)
+# start = '2014-12-31'
+end = dt.date.today()
+# end = '2019-12-31'
 ohlcv_dict = {}
 
 for ticker in tickers:
